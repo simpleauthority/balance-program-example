@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.stream.Stream;
 
 public class Main {
-    static TreeSet<Account> accounts = new TreeSet<>(Account::compareTo);
+    static Set<Account> accounts = new TreeSet<>(Account::compareTo);
 
     public static void main(String[] args) throws FileNotFoundException {
         // read file, skipping header
